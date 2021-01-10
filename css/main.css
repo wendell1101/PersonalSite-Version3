@@ -637,6 +637,9 @@ figure img {
         -ms-flex-align: center;
             align-items: center;
   }
+  .side-nav li a {
+    font-size: 1.5rem !important;
+  }
   .hero-img {
     width: 80%;
   }

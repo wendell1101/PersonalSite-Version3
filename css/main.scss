@@ -319,6 +319,11 @@ li{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        li{
+            a{
+                font-size: 1.5rem!important;
+            }
+        }
     }
     .hero-img{
         width: 80%;
