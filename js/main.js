@@ -22,6 +22,9 @@ hamburger.addEventListener('click', () =>{
     heroContainer.classList.toggle('hero-active');
     heroToggle.classList.toggle('hero-active-toggle');
     mainWrapper.classList.toggle('main-off');
+    icons.forEach(icon => {
+        icon.classList.toggle('icon-active');
+    })
 
 })
 

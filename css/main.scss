@@ -71,16 +71,16 @@ li{
     top:0;
     left:0;
     width:100%;
-    min-height:100vh;
+    height:100vh;
     z-index:-1;
     background: url('../img/hero-bg.jpg');
     background-size: contain ;
     overflow: hidden;
 }
 .hero{
-    overflow: hidden;
     margin: 0 auto;
-    height: 100%;
+    max-height: 100vh;
+    overflow: hidden!important;
     .hero-left{
         position: relative;
         top: 160px;
@@ -114,9 +114,9 @@ li{
     #overlap{
         width: 100%!important;
         height: 100vh;
-        overflow: hidden;
         position: fixed;
         background: $primaryColor1;
+        overflow: hidden!important;
         top:0;
         left:0;
         z-index: -1;
