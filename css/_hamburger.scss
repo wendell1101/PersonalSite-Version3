@@ -1,0 +1,52 @@
+.hamburger{
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: 300ms ease-out;
+    position: relative;
+    cursor: pointer;
+    z-index: 100;
+    .bar{
+        width:30px;
+        height: 3px;
+        background: #fff;
+    }
+    .bar1{
+        margin-bottom: .2rem;
+        transition: 300ms ease-out;
+    }
+    .bar2{
+        margin-bottom: .2rem;
+        margin-left: .6rem;
+        height: 2.5px;
+    }
+    .bar3{
+        transition: 300ms ease-out;
+    }
+    .bar1-cross-left{
+        position: absolute;
+        transform: rotate(-45deg);
+        background: #fff;
+    }
+    .bar2-active{
+        display: none;
+    }
+    .bar3-cross-right{
+        position: absolute;
+        transform: rotate(45deg) translate(0px,0);
+        background: #fff;
+    }
+}
+.hamburger-active{
+    background: rgba( 255, 255, 255, 0.10 );
+    box-shadow: 0 8px 2px 5 rgba(148, 148, 151, 0.37);
+    backdrop-filter: blur( 2.0px );
+    -webkit-backdrop-filter: blur( 2.0px );
+    border-radius: 10px;
+    color: $primaryColor1;
+    border-radius: 50%;
+}
