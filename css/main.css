@@ -255,7 +255,7 @@ li {
   height: 100vh;
   z-index: -1;
   background: url("../img/hero-bg.jpg");
-  background-size: contain;
+  background-size: cover;
   overflow: hidden;
 }
 
